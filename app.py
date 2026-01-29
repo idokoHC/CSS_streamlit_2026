@@ -7,9 +7,9 @@ import numpy as np
 st.title("Researcher Profile Page with STEM Data")
 
 # Collect basic information
-name = "Dr. Jane Doe"
-field = "Astrophysics"
-institution = "University of Science"
+name = "Engr. Dr Hillary Chika Idoko"
+field = "Electrical Engineering"
+institution = "University of Nigeria Nsukka"
 
 # Display basic profile information
 st.header("Researcher Overview")
@@ -119,3 +119,4 @@ elif data_option == "Weather Data":
 st.header("Contact Information")
 email = "jane.doe@example.com"
 st.write(f"You can reach {name} at {email}.")
+
