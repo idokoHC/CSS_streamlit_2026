@@ -18,7 +18,7 @@ st.write(f"**Field of Research:** {field}")
 st.write(f"**Institution:** {institution}")
 
 st.image(
-    "https://www.facebook.com/photo.php?fbid=24013011801677006.jpg",
+    "https://www.facebook.com/photo.php?fbid=24013011801677006",
     caption="Nature (Pixabay)"
 )
 
@@ -119,5 +119,6 @@ elif data_option == "Weather Data":
 st.header("Contact Information")
 email = "jane.doe@example.com"
 st.write(f"You can reach {name} at {email}.")
+
 
 
