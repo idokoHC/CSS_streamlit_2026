@@ -8,7 +8,7 @@ st.header("Student Profile")
 
 # Collect basic information
 name = "Engr. Hillary Chika Idoko"
-level = "Doctor of Engineering) 
+level = "Doctor of Engineering" 
 specialization = "Electric Machines and Drives"
 department = "Electrical Engineering"
 faculty = "Engineering and Built Environment" 
@@ -37,6 +37,7 @@ st.write("MATLAB/Simulink")
 st.header("Contact Information")
 email = "222449294@tut4life.ac.za"
 st.write(f"You can reach {name} at {email}.")
+
 
 
 
