@@ -21,7 +21,7 @@ st.write(f"**Faculty:** {faculty}")
 st.write(f"**Institution:** {institution}")
 
 # Add a section for research interests
-st.header("Research Interest")
+st.header("Research Interests")
 st.write("* Electric Machines and Drives")
 st.write("* Power Electronics")
 st.write("* Renewable Energy Technology")
@@ -37,6 +37,7 @@ st.write("* MATLAB/Simulink")
 st.header("Contact Information")
 email = "222449294@tut4life.ac.za"
 st.write(f"You can reach {name} at {email}.")
+
 
 
 
