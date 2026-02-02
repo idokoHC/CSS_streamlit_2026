@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 st.image(
-    "https://studentroom.co.za/wiki/wp-content/uploads/2020/12/TUT-logo-1024x536.png"
+    "https://www.tut.ac.za/media/tshwane-interim/site-content/images/campuses/Dinokeng4.jpg"
 )
 # Title of the app
 st.title("Researcher Profile Page with STEM Data")
@@ -116,6 +116,7 @@ elif data_option == "Weather Data":
 st.header("Contact Information")
 email = "jane.doe@example.com"
 st.write(f"You can reach {name} at {email}.")
+
 
 
 
