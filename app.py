@@ -18,8 +18,7 @@ st.write(f"**Field of Research:** {field}")
 st.write(f"**Institution:** {institution}")
 
 st.image(
-    "https://studentroom.co.za/wiki/wp-content/uploads/2020/12/TUT-logo-1024x536.png",
-    caption="Nature (Pixabay)"
+    "https://studentroom.co.za/wiki/wp-content/uploads/2020/12/TUT-logo-1024x536.png"
 )
 
 # Add a section for publications
@@ -119,6 +118,7 @@ elif data_option == "Weather Data":
 st.header("Contact Information")
 email = "jane.doe@example.com"
 st.write(f"You can reach {name} at {email}.")
+
 
 
 
