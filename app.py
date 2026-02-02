@@ -7,7 +7,6 @@ import numpy as np
 st.title("Researcher Profile Page with STEM Data")
 
 # Collect basic information
-uploaded_file = st.file_uploader("Upload a jpg of image", type="jpg")
 name = "Engr. Dr Hillary Chika Idoko"
 field = "Electrical Engineering"
 institution = "University of Nigeria Nsukka"
@@ -120,6 +119,7 @@ elif data_option == "Weather Data":
 st.header("Contact Information")
 email = "jane.doe@example.com"
 st.write(f"You can reach {name} at {email}.")
+
 
 
 
