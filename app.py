@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 st.image("https://studentroom.co.za/wiki/wp-content/uploads/2020/12/TUT-logo-1024x536.png")
 # Title of the app
-st.header("Student Profile")
+st.header("Student Profile", color='red')
 
 # Collect basic information
 name = "Engr. Hillary Chika Idoko"
@@ -37,6 +37,7 @@ st.write("* MATLAB/Simulink")
 st.header("Contact Information")
 email = "222449294@tut4life.ac.za"
 st.write(f"You can reach {name} at {email}.")
+
 
 
 
